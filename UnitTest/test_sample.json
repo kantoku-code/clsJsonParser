@@ -1,0 +1,41 @@
+{
+    "project": "CAEオートメーション",
+    "version": 2.5,
+    "enabled": true,
+    "description": "構造解析\t自動化ツール",
+    "author": null,
+    "settings": {
+        "meshSize": 3.5,
+        "materialID": 1001,
+        "autoSave": false,
+        "outputPath": "C:\\temp\\output"
+    },
+    "materials": [
+        {
+            "name": "Steel",
+            "density": 7850,
+            "youngModulus": 2.1e5
+        },
+        {
+            "name": "アルミニウム",
+            "density": 2700,
+            "youngModulus": 7.0e4
+        }
+    ],
+    "loadCases": ["LC1", "LC2", "LC3"],
+    "matrix": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+    "emptyObject": {},
+    "emptyArray": [],
+    "special\u0022key": "value with \"quotes\"",
+    "CaseSensitive": "UPPER",
+    "caseSensitive": "lower",
+    "unicode": "\u3053\u3093\u306b\u3061\u306f",
+    "nested": {
+        "level1": {
+            "level2": {
+                "level3": "深いネスト"
+            }
+        }
+    },
+    "mixedArray": [1, "two", true, null, {"inner": "obj"}, [10, 20]]
+}
